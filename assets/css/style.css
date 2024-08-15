@@ -1,0 +1,134 @@
+*{
+
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(18, 18, 45) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px 200px;
+    color: white;
+  
+}
+.links ul  {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+   
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.buttons ul {
+    gap: 30px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+
+}
+.joinus{
+    width: 90px;
+   
+    border: 3px solid rgb(20, 145, 248);
+    padding: 5px;
+    background-color: rgb(20, 145, 248);
+    text-align: center;
+    border-radius: 10px;
+   
+}
+
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content:center   
+} 
+main{
+    text-align: center;  
+    color: white; 
+    padding: 100px ;
+    
+}
+.welcome{
+    color:rgb(20, 145, 248);
+}
+.texth1{
+    margin:0 650px;
+    font-size: 20px;
+}
+.ptextt{
+    margin:0 630px;  
+}
+
+.quote{
+    width: 130px;
+    height: 40px;
+    border: 3px solid rgb(20, 145, 248);
+    margin: 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(20, 145, 248);
+ }
+ .learn{
+    width: 130px;
+    height: 40px;
+    border: 3px solid rgb(20, 145, 248);
+    margin: 20px;
+    background-color: transparent;
+    color:rgb(20, 145, 248) ;
+    border-radius: 10px;
+ }
+ .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    text-align: center;
+ }
+ .card1{
+    width: 240px;
+    height: 200px;
+    border: 3px solid white;
+    margin: 0 30px;
+    background-color: white;
+    color: black;
+    
+  
+ }
+ .card2{
+    width: 240px;
+    height: 200px;
+    border: 3px solid white;
+    margin: 0 30px;
+    background-color: white;
+    color: black;
+  
+ }
+ .card3{
+    width: 240px;
+    height: 200px;
+    border: 3px solid rgb(20, 145, 248);
+    margin: 0 30px;
+    background-color: rgb(20, 145, 248);
+  
+  
+ }
+ .icon {
+   width: 45px;
+   height: 45px;
+   
+   background-color: rgb(247, 166, 222);
+   margin: 20px;
+   color: black;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+ }
+
